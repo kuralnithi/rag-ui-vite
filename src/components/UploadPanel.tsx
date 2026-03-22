@@ -23,8 +23,9 @@ const UploadPanel: React.FC = () => {
     formData.append('file', file);
 
     try {
-      const res = await fetch('http://localhost:8000/query/upload', {
-        method: 'POST',
+      const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
+      const res = await fetch(`${API_URL}/query/upload`, {
+        method: "POST",
         body: formData,
       });
 
