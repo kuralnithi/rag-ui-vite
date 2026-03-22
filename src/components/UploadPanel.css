@@ -1,0 +1,45 @@
+.upload-panel {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05) !important;
+}
+
+.upload-area {
+  background-color: #f8f9fa;
+  border: 2px dashed #cbd5e1 !important;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.upload-area:hover {
+  background-color: #f1f5f9;
+  border-color: #3b82f6 !important;
+}
+
+.upload-btn {
+  border-radius: 8px;
+  transition: background-color 0.2s, color 0.2s;
+  cursor: pointer;
+}
+
+.upload-submit-btn {
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 0;
+  transition: opacity 0.2s, transform 0.1s;
+}
+
+.upload-submit-btn:hover:not(:disabled) {
+  opacity: 0.9;
+  color: white;
+  transform: translateY(-1px);
+}
+
+.upload-submit-btn:disabled {
+  background: #cbd5e1;
+  cursor: not-allowed;
+}

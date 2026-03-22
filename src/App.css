@@ -1,0 +1,20 @@
+.app-bg {
+    background: linear-gradient(135deg, #eef2f7, #d9e4f5);
+}
+
+.chat-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animation-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flow-container {
+    text-align: center;
+    font-size: 20px;
+}
